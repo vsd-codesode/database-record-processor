@@ -15,7 +15,7 @@ logging:
     org.springframework: error
 
 command:
-  working-dir: /Users/vsd/Downloads/data-processor/test/data
+  working-dir: target/data-processor/test/data
   feature:
     record-processor:
       enabled: true
