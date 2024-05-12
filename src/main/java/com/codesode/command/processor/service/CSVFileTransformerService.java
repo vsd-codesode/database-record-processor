@@ -1,6 +1,6 @@
-package com.codesode.command.ifsc.command.service;
+package com.codesode.command.processor.service;
 
-import com.codesode.command.ifsc.command.domain.Person;
+import com.codesode.command.processor.domain.Person;
 import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 import org.springframework.stereotype.Component;

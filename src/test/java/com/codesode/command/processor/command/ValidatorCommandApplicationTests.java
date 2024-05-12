@@ -1,10 +1,10 @@
-package com.codesode.command.ifsc.command;
+package com.codesode.command.processor.command;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class IfscValidatorCommandApplicationTests {
+class ValidatorCommandApplicationTests {
 
 	@Test
 	void contextLoads() {

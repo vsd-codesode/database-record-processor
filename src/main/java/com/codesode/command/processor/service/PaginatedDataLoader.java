@@ -1,8 +1,8 @@
-package com.codesode.command.ifsc.command.service;
+package com.codesode.command.processor.service;
 
-import com.codesode.command.ifsc.command.config.DbIngestionProperties;
-import com.codesode.command.ifsc.command.domain.Person;
-import com.codesode.command.ifsc.command.domain.repo.PersonRepository;
+import com.codesode.command.processor.config.DbIngestionProperties;
+import com.codesode.command.processor.domain.Person;
+import com.codesode.command.processor.domain.repo.PersonRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -35,6 +35,6 @@ public class PaginatedDataLoader extends AbstractMessageSource<Page<BigInteger>>
 
     @Override
     public String getComponentType() {
-        return "ifsc:inbound-channel-adapter";
+        return "commands:inbound-channel-adapter";
     }
 }

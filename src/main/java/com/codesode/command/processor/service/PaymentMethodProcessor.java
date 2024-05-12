@@ -1,13 +1,9 @@
-package com.codesode.command.ifsc.command.service;
+package com.codesode.command.processor.service;
 
 import org.springframework.messaging.Message;
 import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 @Component

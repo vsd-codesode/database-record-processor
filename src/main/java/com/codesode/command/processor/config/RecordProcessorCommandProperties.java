@@ -1,4 +1,4 @@
-package com.codesode.command.ifsc.command.config;
+package com.codesode.command.processor.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

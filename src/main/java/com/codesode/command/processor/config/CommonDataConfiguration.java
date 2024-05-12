@@ -1,10 +1,10 @@
-package com.codesode.command.ifsc.command.config;
+package com.codesode.command.processor.config;
 
 
-import com.codesode.command.ifsc.command.domain.Person;
-import com.codesode.command.ifsc.command.domain.repo.PersonRepository;
-import com.codesode.command.ifsc.command.service.CSVFileTransformerService;
-import com.codesode.command.ifsc.command.service.PaginatedDataLoader;
+import com.codesode.command.processor.domain.Person;
+import com.codesode.command.processor.domain.repo.PersonRepository;
+import com.codesode.command.processor.service.CSVFileTransformerService;
+import com.codesode.command.processor.service.PaginatedDataLoader;
 import jakarta.annotation.Resource;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

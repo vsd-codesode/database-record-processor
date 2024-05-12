@@ -1,4 +1,4 @@
-package com.codesode.command.ifsc.command.domain;
+package com.codesode.command.processor.domain;
 
 import jakarta.persistence.*;
 

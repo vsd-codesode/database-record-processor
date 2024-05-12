@@ -1,7 +1,7 @@
-package com.codesode.command.ifsc.command.config;
+package com.codesode.command.processor.config;
 
-import com.codesode.command.ifsc.command.service.CSVFileTransformerService;
-import com.codesode.command.ifsc.command.service.PaymentMethodProcessor;
+import com.codesode.command.processor.service.CSVFileTransformerService;
+import com.codesode.command.processor.service.PaymentMethodProcessor;
 import org.apache.commons.lang3.time.StopWatch;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

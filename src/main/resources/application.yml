@@ -15,7 +15,7 @@ logging:
     org.springframework: error
 
 command:
-  working-dir: /Users/vsd/Downloads/ifsc-validator-command/test/data
+  working-dir: /Users/vsd/Downloads/data-processor/test/data
   feature:
     record-processor:
       enabled: true
