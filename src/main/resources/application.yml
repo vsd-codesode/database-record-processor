@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: command-processor
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+  main:
+    banner-mode: "off"
+
+logging:
+  level:
+    root: info
+    org.springframework: error
+
+command:
+  working-dir: /Users/vsd/Downloads/ifsc-validator-command/test/data
+  feature:
+    record-processor:
+      enabled: true
+      source-dir: ${command.working-dir}/source-files
+    db-ingestion:
+      enabled: true
+      pageSize: 20
+      export-location: ${command.working-dir}/source-files
